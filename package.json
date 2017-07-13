@@ -1,0 +1,70 @@
+{
+  "name": "cdp-gulp",
+  "version": "1.0.0",
+  "description": "Step-by-step example of introducing Gulp into project",
+  "scripts": {
+    "build": "gulp build",
+    "build:prod": "gulp build --env=production",
+    "watch": "gulp watch",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "gulp bundle",
+    "dev:watch": "gulp watch",
+    "prod": "gulp bundle:prod",
+    "lint": "gulp lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IllusionMH/cdp-gulp.git"
+  },
+  "keywords": [
+    "gulp",
+    "tutorial",
+    "introduction",
+    "cdp",
+    "epam"
+  ],
+  "author": "Viktoriia Kantsedal",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.9",
+    "babel-preset-es2015": "^6.18.0",
+    "css-loader": "^0.28.4",
+    "del": "^2.2.0",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.7.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-bower": "0.0.13",
+    "gulp-cached": "^1.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-csso": "^2.0.0",
+    "gulp-eslint": "^4.0.0",
+    "gulp-filter": "^4.0.0",
+    "gulp-html-replace": "^1.5.5",
+    "gulp-if": "^2.0.0",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-less": "^3.0.5",
+    "gulp-remember": "^0.3.1",
+    "gulp-stylelint": "^3.9.0",
+    "gulp-uglify": "^1.5.3",
+    "gulp-util": "^3.0.7",
+    "gulp.spritesmith": "^6.2.1",
+    "jsmp-infra-test": "^1.4.0",
+    "less": "~2.7.1",
+    "less-loader": "~2.2.3",
+    "main-bower-files": "^2.11.1",
+    "minimist": "^1.2.0",
+    "postcss-loader": "~0.8.2",
+    "style-loader": "~0.13.1",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "~1.15.x"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1",
+    "jsmp-infra-test": "1.4.0"
+  }
+}
